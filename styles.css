@@ -81,3 +81,9 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+footer img {
+    width: 80%;
+    border-radius: 55px;
+}

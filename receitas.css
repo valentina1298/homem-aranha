@@ -48,3 +48,9 @@ header img {
     font-size: 28px;
     margin-bottom: 20px;
 }
+
+.texto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}

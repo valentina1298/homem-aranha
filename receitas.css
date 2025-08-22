@@ -49,6 +49,13 @@ header img {
     margin-bottom: 20px;
 }
 
+.colunas {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+    align-items: stretch;
+}
+
 .texto {
     background-color: white;
     padding: 20px;

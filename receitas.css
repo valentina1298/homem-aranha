@@ -10,3 +10,8 @@
     --azul: #acd2e1;
     --azulzinho: #e0e6f5;
 }
+
+body {
+    background-color: var(--azulzinho);
+    font-family: Arial, sans-serif;
+}

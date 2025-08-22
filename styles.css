@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --vermelho: #e12f2f;
+    --vermelhinho: #da6f6f;
+    --azul: #acd2e1;
+    --azulzinho: #e0e6f5;
+}

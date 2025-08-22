@@ -42,27 +42,30 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
     margin: 40px;
     justify-items: center;
 }
 
 .receitas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: var(--azul);
-    border-radius: 15px;
-    width: 420px;
-    height: 220px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: var(--azul);
     padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: trensform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.receita:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px  rgba(0, 0, 0, 0.3) ;
 }
 
 .receitas img {
-    width: 40%;
-    border-radius: 55px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .receita a {

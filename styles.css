@@ -94,3 +94,10 @@ footer img {
     color: white;
     margin: 10px;
 }
+
+.icones a {
+    color: var(--vermelhinho);
+    font-size: 30px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}

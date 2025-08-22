@@ -75,10 +75,10 @@ body {
 
 .receita a {
     color: black;
-    font-size: 50px;
+    margin-top: 10px;
     text-decoration: none;
-    line-height: 1.2;
-    display: block;
+    font-weight: bold;
+    
 }
 
 footer {
